@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 
-
 def matrix_shape(matrix):
     """calculates the shape of a matrix"""
+    
     shape = []
     while (type(matrix) is list):
         shape.append(len(matrix))
